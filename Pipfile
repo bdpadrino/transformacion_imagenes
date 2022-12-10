@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+psycopg2 = "*"
+pip = "*"
+install = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-model-utils = "*"
+opencv-python = "*"
+celery = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+server = "python manage.py runserver"
